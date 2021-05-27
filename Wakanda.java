@@ -1,40 +1,47 @@
 import java.util.*;
 
-public class Wakanda{
+public class Wakanda
+{
     public static void main(String[] args)
     {
-           Scanner scn = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
 
-           int r = scn.nextInt();
-           int c = scn.nextInt();
+        int n = scn.nextInt();
+        int m = scn.nextInt();
 
-           int[][] arr = new int[r][c];
+        int[][] arr = new int[n][m];
 
-           for(int i = 0; i < r; i++)
-           {
-               for(int j = 0; j < c; j++)
-               {
-                   arr[i][j] = scn.nextInt();
-               }
-           }
-
-        for(int i = 0; i < c; i++)
+        for(int i=0;i<n;i++)
         {
-            if((i+1)%2 != 0)
-                 {
-                     for(int j = 0; j < r;j++)
-                    {
-                            System.out.println(arr[j][i]);
-                    }
-                 }
-                 else
-                 {
-                     for(int j = r-1; j >= 0;j--)
-                    {
-                            System.out.println(arr[j][i]);
-                    }
-                 }
-            
+            for(int j=0;j<m;j++)
+            {
+                arr[i][j] = scn.nextInt();
+            }
+        }
+
+        printWakanda(arr);
+    }
+    public static void printWakanda(int[][] arr)
+    {
+        int n = arr.length;
+        int m = arr[0].length;
+
+        for(int i=0;i<m;i++)
+        {
+            if(i%2 == 0)
+            {
+               for(int j=0;j<n;j++)
+               {
+                    System.out.println(arr[j][i]);
+               }
+            }
+            else
+            {
+               for(int j=n-1;j>=0;j--)
+               {
+                    System.out.println(arr[j][i]+" ");
+               }
+            }
         }
     }
 }
