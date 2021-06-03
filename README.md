@@ -2,4 +2,5 @@
 2. Matrix vs 2D-Array
 3. Matrix Multipication
 4. Wakanda
-5. Spiral 
+5. Spiral
+6. Exit Point In Matrix
