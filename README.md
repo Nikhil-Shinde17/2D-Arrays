@@ -5,3 +5,4 @@
 5. Spiral
 6. Exit Point In Matrix
 7. Rotate By 90
+8. Ring Rotate
