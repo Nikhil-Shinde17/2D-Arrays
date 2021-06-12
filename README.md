@@ -9,4 +9,5 @@
 7. Rotate By 90
 8. Ring Rotate
 9. State of Wakanda - Diagonal Display of upper triangular part
-10. State of Wakanda - (opposite direaction)
+10. State of Wakanda - (opposite direction)
+11. Saddle Point
