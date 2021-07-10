@@ -11,3 +11,5 @@
 9. State of Wakanda - Diagonal Display of upper triangular part
 10. State of Wakanda - (opposite direction)
 11. Saddle Point
+12. Searching In Sorted A 2 DArray
+13. Search In A 2D Array
